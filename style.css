@@ -31,13 +31,13 @@ th{
     background-color: rgb(101, 176, 226);
 }
 #tables{
-    width: 80%;
+    width: 100%;
     height: 200px;
     text-align: center;
    
 }
 .table1{
-    width: 50%;
+    width: 300%;
     display: flex;
     justify-content: right;
  
