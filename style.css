@@ -1,0 +1,49 @@
+*{
+    box-sizing: border-box;
+}
+
+.header{
+    width: 90%;
+    height: 50pxS;
+    display: flex;
+    justify-content: space-between;
+}
+.entreprise{
+    font-size: 12px;
+}
+.facture{
+    font-size: 12px; 
+}
+
+.client{
+    font-size: 12px; 
+}
+button{
+    width: 200px;
+    height: 30px;
+}
+
+
+#tables,td ,th{
+    border: solid 2px rgb(65, 65, 66) ;
+}
+th{
+    background-color: rgb(101, 176, 226);
+}
+#tables{
+    width: 80%;
+    height: 200px;
+    text-align: center;
+   
+}
+.table1{
+    width: 50%;
+    display: flex;
+    justify-content: right;
+ 
+   
+}
+footer{
+    text-align: center;
+    margin-top: 50px;
+}
