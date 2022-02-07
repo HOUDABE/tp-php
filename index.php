@@ -1,5 +1,5 @@
-<?php include "./fonction.php" ?>  
-<?php include "./utilisateur.php" ?>  
+<?php include "./fonction.php" ?>  ;
+<?php include "./utilisateur.php" ?>  ;
 
 
 <!DOCTYPE html>
@@ -58,7 +58,7 @@
                                        <td><?php echo $produit[0]["Désignation"] ?></td>
                                        <td><?php echo $produit[0]["Prix unitaire(hors taxe)"] ?></td>
                                        <td><?php echo $produit[0]["Quantité"] ?></td>
-                                       <td><?php echo $produit[0]["Prix total"] ?></td>
+                                       <td><?php  echo $produit[0]["Prix total"] ?></td>
                                        <td><?php echo $produit[0]["Total TTC"] ?></td>
                                 </tr>  
                                 <tr>

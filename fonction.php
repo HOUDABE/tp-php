@@ -38,9 +38,9 @@ $produit = array(
     array(
         "Référence" => "114" ,
         "Désignation" => "boisson" ,
-        "Prix unitaire(hors taxe)" => mt_rand(1,10), 
-        "Quantité" => "15" ,
-        "Prix total" =>"prixtotal()" ,
+        "Prix unitaire(hors taxe)" => 5, 
+        "Quantité" => mt_rand(1,10) ,
+        "Prix total" => $produit[1]["Prix unitaire(hors taxe)"] * $produit[1]["Quantité"],
         "Total TTC" => $produit[0]['Prix total'] * 0.2  
     ),
 
@@ -71,13 +71,5 @@ $produit = array(
         "Total TTC" => $produit[3]["Prix total"] * 0.2  
     ),
 );
-
-$qt = $produit["Prix unitaire(hors taxe)"];
-$pu = $produit["Quantité"];
-function prixtotal($qt,$pu) {
-    return $qt * $pu;
-    };
-    
-
 
 ?>
