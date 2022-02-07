@@ -1,4 +1,6 @@
 <?php include "./fonction.php" ?>  
+<?php include "./utilisateur.php" ?>  
+
 
 <!DOCTYPE html>
 <html lang="fr">
@@ -87,7 +89,7 @@
 
                         <table class="table1">
                              <tr>
-                                 <th></th>
+                                 <th>total</th>
                                  <th>TVA 20%</th>
                                  <th>Total</th>
                              </tr>
@@ -99,6 +101,39 @@
                              </tr>
 
                         </table>
+
+
+                        <br><br>
+                        <hr>
+                        <table>
+                                          <tr>
+                                                       <th><?php echo $entete1[0] ?></th>
+                                                       <th><?php echo $entete1[1] ?></th>
+                                                       <th><?php echo $entete1[2] ?></th>
+                                                       <th><?php echo $entete1[3] ?></th>         
+                     <                     </tr>
+                                           <tr>
+                                           <tr>
+                                                        <td><?php echo $utilisateur[0]["nom"] ?></td>
+                                                        <td><?php echo $utilisateur[0]["prenom"] ?></td>
+                                                        <td><?php echo $utilisateur[0]["email"] ?></td>
+                                                        <td><?php echo $utilisateur[0]["age"] ?></td>
+                                           </tr>
+                                           <tr>
+                                                        <td><?php echo $utilisateur[1]["nom"] ?></td>
+                                                        <td><?php echo $utilisateur[1]["prenom"] ?></td>
+                                                        <td><?php echo $utilisateur[1]["email"] ?></td>
+                                                        <td><?php echo $utilisateur[1]["age"] ?></td>
+                                           </tr>
+                                           <tr>
+                                                        <td><?php echo $utilisateur[2]["nom"] ?></td>
+                                                        <td><?php echo $utilisateur[2]["prenom"] ?></td>
+                                                        <td><?php echo $utilisateur[2]["email"] ?></td>
+                                                        <td><?php echo $utilisateur[2]["age"] ?></td2
+                                           </tr>
+                        </table>
+
+
                </section>
                     
          <footer>
