@@ -19,7 +19,7 @@ function ville(string $ville ,int $codeVille){
 
 <?php
 function numFacture(){
-    $numerofacture = mt_rand(1000,8000);
+    $numerofacture = mt_rand(10,8000);
     echo("facture n°".$numerofacture."");
 }
 ?>
@@ -40,7 +40,7 @@ $produit = array(
         "Désignation" => "boisson" ,
         "Prix unitaire(hors taxe)" => mt_rand(1,10), 
         "Quantité" => "15" ,
-        "Prix total" =>$produit[0]['Prix unitaire(hors taxe)']*$produit[0]['Quantité'] ,
+        "Prix total" =>"prixtotal()" ,
         "Total TTC" => $produit[0]['Prix total'] * 0.2  
     ),
 
@@ -72,8 +72,12 @@ $produit = array(
     ),
 );
 
-
-
+$qt = $produit["Prix unitaire(hors taxe)"];
+$pu = $produit["Quantité"];
+function prixtotal($qt,$pu) {
+    return $qt * $pu;
+    };
+    
 
 
 ?>

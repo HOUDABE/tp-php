@@ -129,8 +129,10 @@
                                                         <td><?php echo $utilisateur[2]["nom"] ?></td>
                                                         <td><?php echo $utilisateur[2]["prenom"] ?></td>
                                                         <td><?php echo $utilisateur[2]["email"] ?></td>
-                                                        <td><?php echo $utilisateur[2]["age"] ?></td2
+                                                        <td><?php echo $utilisateur[2]["age"] ?></td>
                                            </tr>
+                                                        
+                                           
                         </table>
 
 
